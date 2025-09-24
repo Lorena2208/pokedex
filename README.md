@@ -23,7 +23,8 @@ Este projeto é uma aplicação simples em Ruby que consome a PokeAPI, armazena 
 
 ## Instalação
 - Instalar as dependencias:
-bundle install
+  ```bash
+  bundle install
 
 - Configurar o banco de dados no PostgreSQL:
    ```sql
