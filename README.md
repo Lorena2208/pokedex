@@ -25,18 +25,18 @@ Este projeto é uma aplicação simples em Ruby que consome a PokeAPI, armazena 
 - Instalar as dependencias:
 bundle install
 
-- Configurar o banco de dados no PostgreSQl
+- Configurar o banco de dados no PostgreSQL:
+   ```sql
+   CREATE DATABASE pokedex_db;
 
-CREATE DATABASE pokedex_db;
-
-CREATE TABLE pokemons (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
-    base_experience INT,
-    height INT,
-    weight INT,
-    types VARCHAR(100)
-);
+   CREATE TABLE pokemons (
+       id SERIAL PRIMARY KEY,
+       name VARCHAR(50) NOT NULL,
+       base_experience INT,
+       height INT,
+       weight INT,
+       types VARCHAR(100)
+   );
 
 - Substituir o user e a senha no arquivo database.rb para a senha do usuário
 
@@ -55,3 +55,6 @@ CREATE TABLE pokemons (
 Escolha uma opção: 1
 Digite o nome ou número do Pokémon: bulbasaur
 Bulbasaur foi adicionado à Pokédex!
+
+Escolha uma opção: 2
+1 - Bulbasaur | Exp: 64 | Altura: 7 | Peso: 69 | Tipos: grass, poison
