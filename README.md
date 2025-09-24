@@ -18,7 +18,7 @@ Este projeto é uma aplicação simples em Ruby que consome a PokeAPI, armazena 
 
 ## Gems
 - pg
-
+- httparty
 ---
 
 ## Instalação
