@@ -26,7 +26,9 @@ Este projeto é uma aplicação simples em Ruby que consome a PokeAPI, armazena 
 bundle install
 
 - Configurar o banco de dados no PostgreSQl
+
 CREATE DATABASE pokedex_db;
+
 CREATE TABLE pokemons (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
