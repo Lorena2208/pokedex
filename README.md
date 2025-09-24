@@ -53,8 +53,11 @@ bundle install
 5. Sair
 
 Escolha uma opção: 1
+
 Digite o nome ou número do Pokémon: bulbasaur
+
 Bulbasaur foi adicionado à Pokédex!
 
 Escolha uma opção: 2
+
 1 - Bulbasaur | Exp: 64 | Altura: 7 | Peso: 69 | Tipos: grass, poison
